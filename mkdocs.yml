@@ -1,1 +1,166 @@
-site_name: My Docs
+site_name: Dev Notes LR
+site_description: Repositorio personal de notas técnicas, roadmaps y aprendizaje continuo.
+site_author: Lázaro
+repo_url: https://github.com/lrmilians/dev-notes-lr
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - toc.integrate
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+  icon:
+    logo: material/book
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - attr_list
+  - tables
+  - pymdownx.mark
+  - pymdownx.arithmatex
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+
+nav:
+  - 🏠 Inicio: index.md
+  - 🧰 Herramientas:
+      - 🧑‍💻 Edición y Control de Código:
+          - VSCode: tools/edicion-control-codigo/vscode.md
+          - Git: tools/edicion-control-codigo/git.md
+          - GitHub: tools/edicion-control-codigo/github.md
+          - GitHub Copilot: tools/edicion-control-codigo/github-copilot.md
+          - Gti: tools/edicion-control-codigo/gti.md
+      - ⚙ Desarrollo y Automatización:
+          - Docker: tools/desarrollo-automatizacion/docker.md
+          - Kubernetes: tools/desarrollo-automatizacion/kubernetes.md
+          - Jenkins: tools/desarrollo-automatizacion/jenkins.md
+          - Terminal: tools/desarrollo-automatizacion/terminal.md
+      - 📞 Comunicación y Gestión:
+          - Slack: tools/communication-management/slack.md
+          - Linear: tools/communication-management/linear.md
+          - Notion: tools/communication-management/notion.md
+      - 🎨 Diseño y UX:
+          - Figma: tools/ui-ux-design/figma.md
+          - Draw.io: tools/ui-ux-design/drawio.md
+          - Adobe XD: tools/ui-ux-design/adobe-xd.md
+          - Sketch: tools/ui-ux-design/sketch.md
+      - 🧪 APIs, Testing y Avanzado:
+          - Postman: tools/advanced-testing-apis/postman.md
+          - IntelliJ IDEA: tools/advanced-testing-apis/intellij.md
+          - ChatGPT: tools/advanced-testing-apis/chatgpt.md
+      - 🌍 Comunidad y Aprendizaje:
+          - Amigoscode: tools/learning-community/amigoscode.md
+          - GitHub Discussions & Dev.to: tools/learning-community/github-discussions-devto.md
+  - 💻 Lenguajes de Programación:
+      - PHP: lenguajes/php.md
+      - JavaScript: lenguajes/javascript.md
+      - Python: lenguajes/python.md
+      - C#: lenguajes/csharp.md
+      - Java: lenguajes/java.md
+      - Rust: lenguajes/rust.md
+      - Go: lenguajes/go.md
+  - 🧩 Frameworks:
+      - Django: frameworks/django.md
+      - Spring Boot: frameworks/springboot.md
+      - .NET: frameworks/dotnet.md
+      - NestJS: frameworks/nestjs.md
+      - Laravel: frameworks/laravel.md
+      - Express: frameworks/express.md
+      - Symfony: frameworks/symfony.md
+  - 🗄 Bases de Datos:
+      - SQL:
+          - MySQL: bases-datos/sql/mysql.md
+          - PostgreSQL: bases-datos/sql/postgresql.md
+      - NoSQL:
+          - Firebase: bases-datos/nosql/firebase.md
+          - MongoDB: bases-datos/nosql/mongodb.md
+  - 🔌 APIs y WebServices:
+      - Tipos:
+          - REST: apis-webservices/tipos/rest.md
+          - SOAP: apis-webservices/tipos/soap.md
+          - gRPC: apis-webservices/tipos/grpc.md
+          - GraphQL: apis-webservices/tipos/graphql.md
+  - ☁ Server y Hosting:
+      - Backend Hosting:
+          - AWS: server-hosting/backend-hosting/aws.md
+          - Azure: server-hosting/backend-hosting/azure.md
+          - GCP: server-hosting/backend-hosting/gcp.md
+      - Contenerización:
+          - Docker: server-hosting/containerization/docker.md
+          - KBS: server-hosting/containerization/kbs.md
+      - Server:
+          - Nginx: server-hosting/server/nginx.md
+          - Apache: server-hosting/server/apache.md
+  - 🏗 Patrones de Arquitectura:
+      - SOA: architectural-patterns/soa.md
+      - Layered: architectural-patterns/layered.md
+      - Microservicios: architectural-patterns/microservices.md
+      - Event Driven: architectural-patterns/event-driven.md
+      - MVC: architectural-patterns/mvc.md
+      - Master-Slave: architectural-patterns/master-slave.md
+      - Monolito: architectural-patterns/monolith.md
+  - 🎨 Frontend:
+      - Frameworks:
+          - React: frontend/frameworks/react.md
+          - Vue.js: frontend/frameworks/vue.md
+          - Angular: frontend/frameworks/angular.md
+          - Svelte: frontend/frameworks/svelte.md
+      - Estilos:
+          - Tailwind CSS: frontend/styles/tailwind.md
+          - Bootstrap: frontend/styles/bootstrap.md
+      - Básicos:
+          - JavaScript: frontend/basics/javascript.md
+          - HTML5: frontend/basics/html.md
+          - CSS: frontend/basics/css.md
+  - ⚙ Backend:
+      - Lenguajes:
+          - Python: backend/languages/python.md
+          - Java: backend/languages/java.md
+          - C#: backend/languages/csharp.md
+          - C++: backend/languages/cpp.md
+      - Middleware:
+          - RabbitMQ: backend/middleware/rabbitmq.md
+          - Elastic: backend/middleware/elastic.md
+          - Kafka: backend/middleware/kafka.md
+          - Redis: backend/middleware/redis.md
+      - Comunicación:
+          - REST: backend/communication/rest.md
+          - SOAP: backend/communication/soap.md
+          - gRPC: backend/communication/grpc.md
+          - GraphQL: backend/communication/graphql.md
+  - 📚 Libros: books/index.md
+
+

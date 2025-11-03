@@ -85,13 +85,13 @@ nav:
           - Amigoscode: tools/learning-community/amigoscode.md
           - GitHub Discussions & Dev.to: tools/learning-community/github-discussions-devto.md
   - 💻 Lenguajes de Programación:
-      - PHP: lenguajes/php.md
-      - JavaScript: lenguajes/javascript.md
-      - Python: lenguajes/python.md
-      - C#: lenguajes/csharp.md
-      - Java: lenguajes/java.md
-      - Rust: lenguajes/rust.md
-      - Go: lenguajes/go.md
+      - PHP: languages/php.md
+      - JavaScript: languages/javascript.md
+      - Python: languages/python.md
+      - C#: languages/csharp.md
+      - Java: languages/java.md
+      - Rust: languages/rust.md
+      - Go: languages/go.md
   - 🧩 Frameworks:
       - Django: frameworks/django.md
       - Spring Boot: frameworks/springboot.md
@@ -102,17 +102,17 @@ nav:
       - Symfony: frameworks/symfony.md
   - 🗄 Bases de Datos:
       - SQL:
-          - MySQL: bases-datos/sql/mysql.md
-          - PostgreSQL: bases-datos/sql/postgresql.md
+          - MySQL: data-bases/sql/mysql.md
+          - PostgreSQL: data-bases/sql/postgresql.md
       - NoSQL:
-          - Firebase: bases-datos/nosql/firebase.md
-          - MongoDB: bases-datos/nosql/mongodb.md
+          - Firebase: data-bases/nosql/firebase.md
+          - MongoDB: data-bases/nosql/mongodb.md
   - 🔌 APIs y WebServices:
       - Tipos:
-          - REST: apis-webservices/tipos/rest.md
-          - SOAP: apis-webservices/tipos/soap.md
-          - gRPC: apis-webservices/tipos/grpc.md
-          - GraphQL: apis-webservices/tipos/graphql.md
+          - REST: apis-webservices/types/rest.md
+          - SOAP: apis-webservices/types/soap.md
+          - gRPC: apis-webservices/types/grpc.md
+          - GraphQL: apis-webservices/types/graphql.md
   - ☁ Server y Hosting:
       - Backend Hosting:
           - AWS: server-hosting/backend-hosting/aws.md

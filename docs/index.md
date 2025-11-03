@@ -43,13 +43,13 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 ---
 
 ## 💻 2. Lenguajes de Programación
-- [PHP](lenguajes/php.md)
-- [JavaScript](lenguajes/javascript.md)
-- [Python](lenguajes/python.md)
-- [C#](lenguajes/csharp.md)
-- [Java](lenguajes/java.md)
-- [Rust](lenguajes/rust.md)
-- [Go](lenguajes/go.md)
+- [PHP](languages/php.md)
+- [JavaScript](languages/javascript.md)
+- [Python](languages/python.md)
+- [C#](languages/csharp.md)
+- [Java](languages/java.md)
+- [Rust](languages/rust.md)
+- [Go](languages/go.md)
 
 ---
 
@@ -67,27 +67,22 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 ## 🗄 4. Bases de Datos
 
 ### 💾 4.1 SQL
-- [MySQL](bases-datos/sql/mysql.md)
-- [PostgreSQL](bases-datos/sql/postgresql.md)
+- [MySQL](data-bases/sql/mysql.md)
+- [PostgreSQL](data-bases/sql/postgresql.md)
 
 ### ⚡ 4.2 NoSQL
-- [Firebase](bases-datos/nosql/firebase.md)
-- [MongoDB](bases-datos/nosql/mongodb.md)
+- [Firebase](data-bases/nosql/firebase.md)
+- [MongoDB](data-bases/nosql/mongodb.md)
 
 ---
 
 ## 🔌 5. APIs y WebServices
 
 ### 🌐 5.1 Tipos de APIs
-- [REST](apis-webservices/tipos/rest.md)
-- [SOAP](apis-webservices/tipos/soap.md)
-- [gRPC](apis-webservices/tipos/grpc.md)
-- [GraphQL](apis-webservices/tipos/graphql.md)
-
-### 🔒 5.2 Autenticación y Seguridad
-- [JWT](apis-webservices/autenticacion-security/jwt.md)
-- [OAuth 2.0](apis-webservices/autenticacion-security/oauth2.md)
-- [API Keys](apis-webservices/autenticacion-security/api-keys.md)
+- [REST](apis-webservices/types/rest.md)
+- [SOAP](apis-webservices/types/soap.md)
+- [gRPC](apis-webservices/types/grpc.md)
+- [GraphQL](apis-webservices/types/graphql.md)
 
 ---
 
@@ -99,8 +94,8 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [GCP](server-hosting/backend-hosting/gcp.md)
 
 ### 📦 6.2 Contenerización
-- [Docker](server-hosting/contenerizacion/docker.md)
-- [KBS](server-hosting/contenerizacion/kbs.md)
+- [Docker](server-hosting/containerization/docker.md)
+- [KBS](server-hosting/containerization/kbs.md)
 
 ### ⚙ 6.3 Servidores
 - [Nginx](server-hosting/server/nginx.md)
@@ -109,13 +104,13 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 ---
 
 ## 🏗 7. Patrones de Arquitectura
-- [SOA](patrones-arquitectura/soa.md)
-- [Layered](patrones-arquitectura/layered.md)
-- [Microservicios](patrones-arquitectura/microservicios.md)
-- [Event Driven](patrones-arquitectura/event-driven.md)
-- [MVC](patrones-arquitectura/mvc.md)
-- [Master-Slave](patrones-arquitectura/master-slave.md)
-- [Monolito](patrones-arquitectura/monolito.md)
+- [SOA](architectural-patterns/soa.md)
+- [Layered](architectural-patterns/layered.md)
+- [Microservicios](architectural-patterns/microservicios.md)
+- [Event Driven](architectural-patterns/event-driven.md)
+- [MVC](architectural-patterns/mvc.md)
+- [Master-Slave](architectural-patterns/master-slave.md)
+- [Monolito](architectural-patterns/monolito.md)
 
 ---
 
@@ -128,23 +123,23 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [Svelte](frontend/frameworks/svelte.md)
 
 ### 💅 8.2 Estilos
-- [Tailwind CSS](frontend/estilos/tailwind.md)
-- [Bootstrap](frontend/estilos/bootstrap.md)
+- [Tailwind CSS](frontend/styles/tailwind.md)
+- [Bootstrap](frontend/styles/bootstrap.md)
 
 ### 🧱 8.3 Básicos
-- [JavaScript](frontend/basicos/javascript.md)
-- [HTML5](frontend/basicos/html5.md)
-- [CSS](frontend/basicos/css.md)
+- [JavaScript](frontend/basics/javascript.md)
+- [HTML5](frontend/basics/html5.md)
+- [CSS](frontend/basics/css.md)
 
 ---
 
 ## ⚙ 9. Backend
 
 ### 🧩 9.1 Lenguajes
-- [Python](backend/lenguajes/python.md)
-- [Java](backend/lenguajes/java.md)
-- [C#](backend/lenguajes/csharp.md)
-- [C++](backend/lenguajes/cpp.md)
+- [Python](backend/languages/python.md)
+- [Java](backend/languages/java.md)
+- [C#](backend/languages/csharp.md)
+- [C++](backend/languages/cpp.md)
 
 ### 🔄 9.2 Middleware
 - [RabbitMQ](backend/middleware/rabbitmq.md)
@@ -153,15 +148,15 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [Redis](backend/middleware/redis.md)
 
 ### 🔗 9.3 Comunicación
-- [REST](backend/comunicacion/rest.md)
-- [SOAP](backend/comunicacion/soap.md)
-- [gRPC](backend/comunicacion/grpc.md)
-- [GraphQL](backend/comunicacion/graphql.md)
+- [REST](backend/communication/rest.md)
+- [SOAP](backend/communication/soap.md)
+- [gRPC](backend/communication/grpc.md)
+- [GraphQL](backend/communication/graphql.md)
 
 ---
 
 ## 📚 10. Libros
-- [Índice de Lecturas](libros/index.md)
+- [Índice de Lecturas](books/index.md)
 
 ---
 

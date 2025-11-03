@@ -15,10 +15,10 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [Gti](tools/edition-control-code/gti.md)
 
 ### ⚙ 1.2 Desarrollo y Automatización
-- [Docker](tools/edition-control-code/docker.md)
 - [Kubernetes](tools/edition-control-code/kubernetes.md)
 - [Jenkins](tools/edition-control-code/jenkins.md)
 - [Terminal](tools/edition-control-code/terminal.md)
+
 
 ### 📞 1.3 Comunicación y Gestión de Proyectos
 - [Slack](tools/communication-management/slack.md)
@@ -106,11 +106,11 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 ## 🏗 7. Patrones de Arquitectura
 - [SOA](architectural-patterns/soa.md)
 - [Layered](architectural-patterns/layered.md)
-- [Microservicios](architectural-patterns/microservicios.md)
+- [Microservicios](architectural-patterns/microservices.md)
 - [Event Driven](architectural-patterns/event-driven.md)
 - [MVC](architectural-patterns/mvc.md)
 - [Master-Slave](architectural-patterns/master-slave.md)
-- [Monolito](architectural-patterns/monolito.md)
+- [Monolito](architectural-patterns/monolith.md)
 
 ---
 
@@ -128,7 +128,7 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 
 ### 🧱 8.3 Básicos
 - [JavaScript](frontend/basics/javascript.md)
-- [HTML5](frontend/basics/html5.md)
+- [HTML5](frontend/basics/html.md)
 - [CSS](frontend/basics/css.md)
 
 ---

@@ -58,16 +58,16 @@ nav:
   - 🏠 Inicio: index.md
   - 🧰 Herramientas:
       - 🧑‍💻 Edición y Control de Código:
-          - VSCode: tools/edicion-control-codigo/vscode.md
-          - Git: tools/edicion-control-codigo/git.md
-          - GitHub: tools/edicion-control-codigo/github.md
-          - GitHub Copilot: tools/edicion-control-codigo/github-copilot.md
-          - Gti: tools/edicion-control-codigo/gti.md
+          - VSCode: tools/edition-control-code/vscode.md
+          - Git: tools/edition-control-code/git.md
+          - GitHub: tools/edition-control-code/github.md
+          - GitHub Copilot: tools/edition-control-code/github-copilot.md
+          - Gti: tools/edition-control-code/gti.md
       - ⚙ Desarrollo y Automatización:
-          - Docker: tools/desarrollo-automatizacion/docker.md
-          - Kubernetes: tools/desarrollo-automatizacion/kubernetes.md
-          - Jenkins: tools/desarrollo-automatizacion/jenkins.md
-          - Terminal: tools/desarrollo-automatizacion/terminal.md
+          - Docker: tools/development-automation/docker.md
+          - Kubernetes: tools/development-automation/kubernetes.md
+          - Jenkins: tools/development-automation/jenkins.md
+          - Terminal: tools/development-automation/terminal.md
       - 📞 Comunicación y Gestión:
           - Slack: tools/communication-management/slack.md
           - Linear: tools/communication-management/linear.md
@@ -162,5 +162,6 @@ nav:
           - gRPC: backend/communication/grpc.md
           - GraphQL: backend/communication/graphql.md
   - 📚 Libros: books/index.md
+  - 📚 Mkdocs: mkdocs/index.md
 
 

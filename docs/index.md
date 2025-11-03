@@ -15,15 +15,16 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [Gti](tools/edition-control-code/gti.md)
 
 ### ⚙ 1.2 Desarrollo y Automatización
-- [Kubernetes](tools/edition-control-code/kubernetes.md)
-- [Jenkins](tools/edition-control-code/jenkins.md)
-- [Terminal](tools/edition-control-code/terminal.md)
+- [Kubernetes](tools/development-automation/kubernetes.md)
+- [Jenkins](tools/development-automation/jenkins.md)
+- [Terminal](tools/development-automation/terminal.md)
 
 
 ### 📞 1.3 Comunicación y Gestión de Proyectos
 - [Slack](tools/communication-management/slack.md)
 - [Linear](tools/communication-management/linear.md)
 - [Notion](tools/communication-management/notion.md)
+- [Discord](tools/communication-management/discord.md)
 
 ### 🎨 1.4 Diseño y Experiencia de Usuario (UI/UX)
 - [Figma](tools/ui-ux-design/figma.md)
@@ -83,6 +84,13 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [SOAP](apis-webservices/types/soap.md)
 - [gRPC](apis-webservices/types/grpc.md)
 - [GraphQL](apis-webservices/types/graphql.md)
+
+---
+
+### 🌐 5.2 Autenticación y Seguridad
+- [API Keys](apis-webservices/authentication-security/api-keys.md)
+- [JWT](apis-webservices/authentication-security/jwt.md)
+- [OAuth 2.0](apis-webservices/authentication-security/oauth2.md)
 
 ---
 

@@ -74,6 +74,7 @@ nav:
           - Slack: tools/communication-management/slack.md
           - Linear: tools/communication-management/linear.md
           - Notion: tools/communication-management/notion.md
+          - Discord: tools/communication-management/discord.md
       - 🎨 Diseño y UX:
           - Figma: tools/ui-ux-design/figma.md
           - Draw.io: tools/ui-ux-design/drawio.md
@@ -115,6 +116,10 @@ nav:
           - SOAP: apis-webservices/types/soap.md
           - gRPC: apis-webservices/types/grpc.md
           - GraphQL: apis-webservices/types/graphql.md
+      - Seguridad y Autenticación:
+          - API Keys: apis-webservices/security-authentication/api-keys.md
+          - OAuth2: apis-webservices/security-authentication/oauth2.md
+          - JWT: apis-webservices/security-authentication/jwt.md
   - ☁ Server y Hosting:
       - Backend Hosting:
           - AWS: server-hosting/backend-hosting/aws.md

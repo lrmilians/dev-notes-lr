@@ -5,6 +5,10 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 
 ---
 
+## ⚙ Ingeniería de Software:
+### 🧑‍💻 Hacia producción
+- [¿Cómo Desplegar Código a Producción?](software-engineering/deploying-code.md)
+
 ## 🧰 1. Herramientas
 
 ### 🧑‍💻 1.1 Edición y Control de Código
@@ -51,6 +55,7 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [Java](languages/java.md)
 - [Rust](languages/rust.md)
 - [Go](languages/go.md)
+- [Typescript](languages/typescript.md)
 
 ---
 
@@ -139,6 +144,9 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [HTML5](frontend/basics/html.md)
 - [CSS](frontend/basics/css.md)
 
+### 🧱 8.4 Testing
+- [Vitest](frontend/testing/vitest.md)
+
 ---
 
 ## ⚙ 9. Backend 
@@ -164,12 +172,20 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 
 ---
 
-## 📚 10. Libros
+## 🌐 10. Ciberseguridad
+
+### 🔗 10.1 Seguridad web
+- [Apuntes de DevTalles](cybersecurity/web-security/devtalles.md)
+
+
+---
+
+## 📚 11. Libros
 - [Índice de Lecturas](books/index.md)
 
 ---
 
-## 📚 11. MKdocs
+## 📚 12. MKdocs
 - [Mkdocs](mkdocs/index.md)
 
 ---

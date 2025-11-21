@@ -174,9 +174,12 @@ nav:
           - SOAP: backend/communication/soap.md
           - gRPC: backend/communication/grpc.md
           - GraphQL: backend/communication/graphql.md
+          - Códigos de respuesta HTTP: backend/communication/http-response-code.md
   - 🌐 Ciberseguridad:
         - 🔗 Seguridad web:
             - Apuntes de DevTalles: cybersecurity/web-security/devtalles.md
+  -  IA:
+        - Modelos favoritos: ia/models.md
   - 📚 Libros: books/index.md
   - 📚 Mkdocs: mkdocs/index.md
 

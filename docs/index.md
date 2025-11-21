@@ -169,6 +169,7 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 - [SOAP](backend/communication/soap.md)
 - [gRPC](backend/communication/grpc.md)
 - [GraphQL](backend/communication/graphql.md)
+- [Códigos de respuesta HTTP](backend/communication/http-response-code.md)
 
 ---
 
@@ -179,6 +180,14 @@ Aquí encontrarás toda la documentación estructurada para crecer como ingenier
 
 
 ---
+
+##  11. IA      
+
+### 🔗 11.1 Modelos favoritos
+- [Modelos favoritos de IA](ia/models.md)
+
+--- 
+
 
 ## 📚 11. Libros
 - [Índice de Lecturas](books/index.md)

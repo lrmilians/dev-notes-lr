@@ -34,9 +34,9 @@ Esto añade el comando tsc (TypeScript Compiler) a tu sistema para compilar arch
 
 📂 Primer archivo
 
-1️⃣ Crea un archivo hello.ts.
-2️⃣ Compílalo con tsc.
-3️⃣ Ejecuta el resultado con Node.
+1️⃣ Crea un archivo hello.ts.  
+2️⃣ Compílalo con tsc.  
+3️⃣ Ejecuta el resultado con Node.  
 
 💡 Lo interesante
 
@@ -59,15 +59,15 @@ Aquí entra en juego tsconfig.json, el archivo que define cómo funciona TypeScr
 
 Es un archivo de configuración en formato JSON que indica al compilador:
 
-✅ Dónde buscar archivos (include, exclude).
-✅ Cómo compilarlos (compilerOptions).
-✅ Qué nivel de comprobaciones aplicar. 
+✅ Dónde buscar archivos (include, exclude).  
+✅ Cómo compilarlos (compilerOptions).  
+✅ Qué nivel de comprobaciones aplicar.   
 
 ✨ Lo esencial:
 
-target → La versión de JS resultante (ej: ES5, ES6…).
-module → El sistema de módulos (commonjs, esnext, etc.).
-strict → Activa todas las comprobaciones estrictas (¡muy recomendable!).
+target → La versión de JS resultante (ej: ES5, ES6…).  
+module → El sistema de módulos (commonjs, esnext, etc.).  
+strict → Activa todas las comprobaciones estrictas (¡muy recomendable!).  
 
 En resumen, tsconfig.json es el cerebro de TypeScript, controla desde el nivel de seguridad hasta la compatibilidad con distintos entornos.
 
@@ -101,9 +101,9 @@ Facilita importar librerías con import x from "lib" aunque no usen ESModules.
 
 ✨ En resumen, estas opciones ayudan a:
 
-✅ Encontrar errores antes.
-✅ Mantener un código más claro.
-✅ Mejorar la autocompletación y refactors.
+✅ Encontrar errores antes.  
+✅ Mantener un código más claro.  
+✅ Mejorar la autocompletación y refactors.  
 
 📌 En el siguiente post veremos opciones para integrar TypeScript en proyectos reales y trabajar en equipo.
 
@@ -118,15 +118,15 @@ Siempre se transpila a JavaScript, el único lenguaje que entienden los navegado
 
 🔑 ¿Qué emite el compilador?
 
-🔷 Archivos .js listos para producción.
-🔷 Archivos .d.ts (si los activas) → solo tipos, útiles para compartir librerías.
-🔷 Mapas de código (.map) → para debuggear en el navegador como si ejecutaras TS.
+🔷 Archivos .js listos para producción.  
+🔷 Archivos .d.ts (si los activas) → solo tipos, útiles para compartir librerías.  
+🔷 Mapas de código (.map) → para debuggear en el navegador como si ejecutaras TS.  
 
 ⚙️ Integración según proyecto
 
-🔷 Node.js → compilas .ts a .js y ejecutas con node.
-🔷 React → la mayoría de toolchains (Vite, CRA, Next.js) ya soportan TS de serie.
-🔷 Librerías → exportas tipos con .d.ts para que otros devs tengan autocompletado.
+🔷 Node.js → compilas .ts a .js y ejecutas con node.  
+🔷 React → la mayoría de toolchains (Vite, CRA, Next.js) ya soportan TS de serie.  
+🔷 Librerías → exportas tipos con .d.ts para que otros devs tengan autocompletado.  
 
 ‼️ Lo importante
 
@@ -148,11 +148,11 @@ Con TypeScript podemos definir explícitamente los tipos primitivos y evitar sor
 
 🔑 Principales tipos primitivos
 
-🔷 string → cadenas de texto.
-🔷 number → enteros y decimales.
-🔷 boolean → valores true o false.
-🔷 null y undefined → ausencia de valor.
-🔷 any → desactiva el tipado (no recomendable salvo casos muy concretos).
+🔷 string → cadenas de texto.  
+🔷 number → enteros y decimales.  
+🔷 boolean → valores true o false.  
+🔷 null y undefined → ausencia de valor.  
+🔷 any → desactiva el tipado (no recomendable salvo casos muy concretos).  
 
 💡 Con estos tipos, TypeScript puede detectar usos incorrectos antes de ejecutar.
 
@@ -182,9 +182,9 @@ Ejemplo: funciones que siempre lanzan error o que nunca terminan.
 
 ✨ En resumen:
 
-✅ Usa any solo si no hay alternativa.
-✅ Prefiere unknown cuando el tipo no está claro, pero necesitas comprobarlo.
-✅ never aparece en casos muy concretos para indicar que algo es imposible.
+✅ Usa any solo si no hay alternativa.  
+✅ Prefiere unknown cuando el tipo no está claro, pero necesitas comprobarlo.  
+✅ never aparece en casos muy concretos para indicar que algo es imposible.  
 
 📌 En el siguiente post veremos inferencia de tipos en TypeScript.
 
@@ -203,9 +203,9 @@ Si declaras una variable con un valor, TypeScript deduce su tipo y lo mantiene.
 
 ✨ Beneficios:
 
-✅ Menos código repetitivo.
-✅ Autocompletado inteligente sin escribir los tipos a mano.
-✅ Seguridad garantizada: el compilador no permitirá cambiar el tipo más adelante.
+✅ Menos código repetitivo.  
+✅ Autocompletado inteligente sin escribir los tipos a mano.  
+✅ Seguridad garantizada: el compilador no permitirá cambiar el tipo más adelante.  
 
 En resumen, la inferencia hace el código más limpio sin perder tipado.
 
@@ -222,9 +222,9 @@ Con TypeScript podemos definir la forma exacta que debe tener un objeto, asegur�
 
 🔑 ¿Por qué tipar objetos?
 
-🔷 Define qué propiedades son obligatorias.
-🔷 Evita errores por nombres mal escritos.
-🔷 Facilita el autocompletado y la refactorización.
+🔷 Define qué propiedades son obligatorias.  
+🔷 Evita errores por nombres mal escritos.  
+🔷 Facilita el autocompletado y la refactorización.  
 
 En resumen, tipar objetos nos da claridad y seguridad al trabajar con estructuras de datos.
 
@@ -247,8 +247,8 @@ Son como arrays, pero con longitud fija y tipos específicos en cada posición.
 
 ✨ Beneficios:
 
-✅ Evitan mezclar tipos en un array sin querer.
-✅ Con las tuplas, cada posición tiene un propósito claro.
+✅ Evitan mezclar tipos en un array sin querer.  
+✅ Con las tuplas, cada posición tiene un propósito claro.  
 
 En resumen, arrays y tuplas nos ayudan a estructurar colecciones de datos con reglas claras.
 
@@ -265,9 +265,9 @@ Con TypeScript podemos tipar tanto los parámetros como el valor de retorno, lo 
 
 🔑 ¿Por qué tipar funciones?
 
-✅ Dejas claro qué recibe y qué devuelve.
-✅ Mejor autocompletado y refactors sin miedo.
-✅ Evitas errores por valores inesperados.
+✅ Dejas claro qué recibe y qué devuelve.  
+✅ Mejor autocompletado y refactors sin miedo.  
+✅ Evitas errores por valores inesperados.  
 
 En resumen, las funciones tipadas ayudan a definir contratos claros en tu código.
 
@@ -284,13 +284,13 @@ Con TypeScript podemos definir parámetros opcionales y valores por defecto para
 
 🔑 Parámetros opcionales (?)
 
-🔷 El parámetro puede estar o no estar presente.
-🔷 TypeScript te obliga a comprobarlo antes de usarlo.
+🔷 El parámetro puede estar o no estar presente.  
+🔷 TypeScript te obliga a comprobarlo antes de usarlo.  
 
 🔑 Valores por defecto
 
-🔷 Si no se pasa un argumento, se usa el valor definido por defecto.
-🔷 Garantiza que siempre haya un valor válido.
+🔷 Si no se pasa un argumento, se usa el valor definido por defecto.  
+🔷 Garantiza que siempre haya un valor válido.  
 
 En resumen, puedes diseñar funciones más flexibles sin comprometer la claridad ni el tipado.
 
@@ -308,9 +308,9 @@ Para eso existen los type aliases, un nombre que representa un tipo.
 
 🔑 ¿Por qué usar alias de tipos?
 
-🔷 Reutilizas definiciones en varios sitios.
-🔷 Mantienes el código más limpio y legible.
-🔷 Facilitas cambios: actualizas el alias y se refleja en todas partes.
+🔷 Reutilizas definiciones en varios sitios.  
+🔷 Mantienes el código más limpio y legible.  
+🔷 Facilitas cambios: actualizas el alias y se refleja en todas partes.  
 
 En resumen, los alias permiten dar un nombre a un tipo y usarlo como si fuera propio.
 
@@ -327,9 +327,9 @@ Para eso existe as const: una forma de decirle al compilador “esto no va a cam
 
 🔑 ¿Qué hace as const?
 
-🔷 Convierte un valor en readonly.
-🔷 Cambia el tipo a su valor literal exacto (ej: "red" en vez de string).
-🔷 Muy útil en arrays y objetos que definen configuraciones o constantes.
+🔷 Convierte un valor en readonly.  
+🔷 Cambia el tipo a su valor literal exacto (ej: "red" en vez de string).  
+🔷 Muy útil en arrays y objetos que definen configuraciones o constantes.  
 
 En resumen, as const ayuda a proteger valores y a trabajar con mayor precisión en enums, configs y props.
 
@@ -346,17 +346,17 @@ Ahora toca ponerlo en práctica con pequeños ejercicios.
 
 🔑 ¿Por qué hacer ejercicios?
 
-🔷 Refuerzas la teoría con práctica real.
-🔷 Te acostumbras a los errores del compilador.
-🔷 Aprendes a pensar en términos de contratos de tipos.
+🔷 Refuerzas la teoría con práctica real.  
+🔷 Te acostumbras a los errores del compilador.  
+🔷 Aprendes a pensar en términos de contratos de tipos.  
 
 Os propongo los siguientes:
 
-1️⃣ Declara una variable de tipo string y otra de tipo number. 
-2️⃣ Crea una función que reciba un boolean y devuelva un string. 
-3️⃣ Define un objeto Product con nombre (string) y precio (number). 
-4️⃣ Haz un array de números y calcula su suma. 
-5️⃣ Declara una tupla con nombre (string) y edad (number). 
+1️⃣ Declara una variable de tipo string y otra de tipo number.  
+2️⃣ Crea una función que reciba un boolean y devuelva un string.  
+3️⃣ Define un objeto Product con nombre (string) y precio (number).  
+4️⃣ Haz un array de números y calcula su suma.  
+5️⃣ Declara una tupla con nombre (string) y edad (number).  
 
 📣 En el resumen de esta semana os pondré la propuesta de soluciones.
 
@@ -375,9 +375,9 @@ Son muy similares a los alias, pero con algunas ventajas cuando se trata de exte
 
 🔑 ¿Por qué usar interfaces?
 
-🔷 Definen la forma exacta de un objeto.
-🔷 Se pueden extender para crear variantes sin duplicar código.
-🔷 Mejoran el autocompletado y la legibilidad en proyectos grandes.
+🔷 Definen la forma exacta de un objeto.  
+🔷 Se pueden extender para crear variantes sin duplicar código.  
+🔷 Mejoran el autocompletado y la legibilidad en proyectos grandes.  
 
 En resumen, las interfaces ayudan a modelar datos y mantener el código más organizado.
 
@@ -394,20 +394,20 @@ En TypeScript tenemos dos formas muy parecidas de definir la forma de los datos:
 
 🔑 ¿Qué tienen en común?
 
-🔷 Sirven para describir objetos.
-🔷 Mejoran autocompletado y legibilidad.
-🔷 Se pueden reutilizar en varios sitios.
+🔷 Sirven para describir objetos.  
+🔷 Mejoran autocompletado y legibilidad.  
+🔷 Se pueden reutilizar en varios sitios.  
 
 🔑 ¿En qué se diferencian?
 
-🔷 interface → pensada para describir objetos y permite extender otras interfaces.
-🔷 type → más flexible: puede definir uniones (|), tipos primitivos, funciones, etc.
-🔷 conflictos: las interfaces pueden mergearse si se declaran varias veces, los types no.
+🔷 interface → pensada para describir objetos y permite extender otras interfaces.  
+🔷 type → más flexible: puede definir uniones (|), tipos primitivos, funciones, etc.  
+🔷 conflictos: las interfaces pueden mergearse si se declaran varias veces, los types no.  
 
 ✨ Regla práctica:
 
-✅ Usa interface si defines la forma de un objeto que puede crecer o extenderse.
-✅ Usa type si necesitas más flexibilidad o definir uniones de tipos.
+✅ Usa interface si defines la forma de un objeto que puede crecer o extenderse.  
+✅ Usa type si necesitas más flexibilidad o definir uniones de tipos.  
 
 📌 En el siguiente post veremos tipos literales y union types.
 
@@ -422,18 +422,18 @@ Ahí entran en juego las uniones (|) y las intersecciones (&).
 
 🔑 Union types (|)
 
-🔷 Permiten que algo sea de uno u otro tipo.
-🔷 Muy útiles cuando una variable puede tener varios formatos válidos.
+🔷 Permiten que algo sea de uno u otro tipo.  
+🔷 Muy útiles cuando una variable puede tener varios formatos válidos.  
 
 🔑 Intersection types (&)
 
-🔷 Combinan tipos para crear uno que cumpla todos a la vez.
-🔷 Perfecto para extender entidades con nuevas propiedades.
+🔷 Combinan tipos para crear uno que cumpla todos a la vez.  
+🔷 Perfecto para extender entidades con nuevas propiedades.  
 
 En resumen:
 
-👉 Union = uno u otro.
-👉 Intersection = todo junto.
+👉 Union = uno u otro.  
+👉 Intersection = todo junto.  
 
 📌 En el siguiente post veremos tipos literales y cómo se usan con uniones.
 
@@ -451,10 +451,10 @@ El compilador analiza el flujo del programa y reduce el tipo según las comproba
 
 🔑 Formas comunes de narrowing:
 
-🔷 typeof → para tipos primitivos.
-🔷 in → para comprobar si una propiedad existe.
-🔷 instanceof → para validar instancias de clases.
-🔷 Chequeos personalizados con type predicates.
+🔷 typeof → para tipos primitivos.  
+🔷 in → para comprobar si una propiedad existe.  
+🔷 instanceof → para validar instancias de clases.  
+🔷 Chequeos personalizados con type predicates.  
 
 En resumen, narrowing permite que las uniones sean seguras y prácticas de usar.
 
@@ -471,20 +471,20 @@ Para eso existen dos enfoques: Enums y Literal Types.
 
 🔑 Enums
 
-🔷 Definen un conjunto de valores con nombre.
-🔷 Pueden ser numéricos o de strings.
-🔷 Son más verbosos, pero muy claros en grandes proyectos.
+🔷 Definen un conjunto de valores con nombre.  
+🔷 Pueden ser numéricos o de strings.  
+🔷 Son más verbosos, pero muy claros en grandes proyectos.  
 
 🔑 Literal Types + Uniones
 
-🔷 Usan valores literales unidos con |.
-🔷 Más ligeros, sin generar código extra.
-🔷 Ideales cuando las opciones son pocas.
+🔷 Usan valores literales unidos con |.  
+🔷 Más ligeros, sin generar código extra.  
+🔷 Ideales cuando las opciones son pocas.  
 
 ✨ Regla práctica:
 
-✅ Usa Literal Types para casos simples y ligeros.
-✅ Usa Enums si necesitas un set reutilizable y más expresivo.
+✅ Usa Literal Types para casos simples y ligeros.  
+✅ Usa Enums si necesitas un set reutilizable y más expresivo.  
 
 📌 En el siguiente post veremos propiedades opcionales y nullables.
 
@@ -499,9 +499,9 @@ Con TypeScript podemos tiparlos usando index signatures.
 
 🔑 ¿Qué es una index signature?
 
-🔷 Definición: forma de indicar el tipo de las claves de un objeto.
-🔷 Uso: permite que las claves sean dinámicas (string, number, symbol).
-🔷 Ventaja: garantiza que todos los valores cumplan un contrato.
+🔷 Definición: forma de indicar el tipo de las claves de un objeto.  
+🔷 Uso: permite que las claves sean dinámicas (string, number, symbol).  
+🔷 Ventaja: garantiza que todos los valores cumplan un contrato.  
 
 En resumen, con index signatures podemos crear objetos flexibles pero seguros.
 
@@ -518,15 +518,15 @@ Dos herramientas clave para esto son keyof y typeof.
 
 🔑 ¿Qué es keyof?
 
-🔷 Definición: obtiene las claves de un tipo como unión de strings.
-🔷 Uso: útil para limitar valores a las propiedades de un objeto.
-🔷 Ventaja: evita errores de propiedades mal escritas.
+🔷 Definición: obtiene las claves de un tipo como unión de strings.  
+🔷 Uso: útil para limitar valores a las propiedades de un objeto.  
+🔷 Ventaja: evita errores de propiedades mal escritas.  
 
 🔑 ¿Qué es typeof?
 
-🔷 Definición: obtiene el tipo a partir de un valor ya declarado.
-🔷 Uso: permite reutilizar tipos sin definirlos manualmente.
-🔷 Ventaja: mantiene sincronizados valores y tipos.
+🔷 Definición: obtiene el tipo a partir de un valor ya declarado.  
+🔷 Uso: permite reutilizar tipos sin definirlos manualmente.  
+🔷 Ventaja: mantiene sincronizados valores y tipos.  
 
 En resumen, keyof y typeof nos ayudan a hacer metaprogramación con tipos, generando estructuras más consistentes.
 
@@ -542,9 +542,9 @@ Ya vimos que TypeScript puede deducir tipos automáticamente sin que tengamos qu
 
 🔑 ¿Qué es la inferencia avanzada?
 
-🔷 Definición: capacidad del compilador para deducir el tipo sin declaración explícita.
-🔷 Uso: variables, funciones, retornos y estructuras complejas.
-🔷 Ventaja: menos código repetitivo y tipado más expresivo.
+🔷 Definición: capacidad del compilador para deducir el tipo sin declaración explícita.  
+🔷 Uso: variables, funciones, retornos y estructuras complejas.  
+🔷 Ventaja: menos código repetitivo y tipado más expresivo.  
 
 En resumen, la inferencia avanzada hace que el código sea más limpio y seguro, porque TS entiende el contexto.
 
@@ -561,9 +561,9 @@ Esto se llama Structural Typing y es la base del sistema de tipos en TS.
 
 🔑 ¿Qué es la compatibilidad de tipos?
 
-🔷 Definición: dos tipos son compatibles si sus estructuras coinciden.
-🔷 Uso: permite asignar objetos distintos siempre que tengan las mismas propiedades requeridas.
-🔷 Ventaja: más flexibilidad y menos código repetitivo.
+🔷 Definición: dos tipos son compatibles si sus estructuras coinciden.  
+🔷 Uso: permite asignar objetos distintos siempre que tengan las mismas propiedades requeridas.  
+🔷 Ventaja: más flexibilidad y menos código repetitivo.  
 
 📌 En el siguiente post veremos ejercicios prácticos de tipado intermedio para aplicar todo lo aprendido.
 
@@ -577,16 +577,16 @@ Hemos aprendido sobre index signatures, keyof/typeof, inferencia avanzada y comp
 
 🔑 ¿Qué conseguimos practicando?
 
-🔷 Definición: afianzar los conceptos de tipado intermedio.
-🔷 Uso: resolver casos más realistas con objetos y funciones.
-🔷 Ventaja: consolidar lo aprendido y detectar dudas antes de pasar a generics.
+🔷 Definición: afianzar los conceptos de tipado intermedio.  
+🔷 Uso: resolver casos más realistas con objetos y funciones.  
+🔷 Ventaja: consolidar lo aprendido y detectar dudas antes de pasar a generics.  
 
 Os propongo los siguientes:
 
-1️⃣ Declara un objeto Dictionary que permita cualquier clave string con valores number. 
-2️⃣ Crea una función que acepte solo claves válidas de User. 
-3️⃣ Reutiliza el tipo a partir de una constante. 
-4️⃣ Asigna un objeto con más propiedades a una interfaz más simple. 
+1️⃣ Declara un objeto Dictionary que permita cualquier clave string con valores number.  
+2️⃣ Crea una función que acepte solo claves válidas de User.  
+3️⃣ Reutiliza el tipo a partir de una constante.  
+4️⃣ Asigna un objeto con más propiedades a una interfaz más simple.  
 
 📣 En el resumen de esta semana os pondré la propuesta de soluciones.
 
@@ -604,9 +604,9 @@ Ahí entran en juego los Generics.
 
 🔑 ¿Qué son los generics?
 
-🔷 Definición: permiten crear componentes de código reutilizables que aceptan diferentes tipos como parámetros.
-🔷 Uso: se escriben con <T> (o más letras si hay varios).
-🔷 Ventaja: flexibilidad sin sacrificar el tipado estático.
+🔷 Definición: permiten crear componentes de código reutilizables que aceptan diferentes tipos como parámetros.  
+🔷 Uso: se escriben con <T> (o más letras si hay varios).  
+🔷 Ventaja: flexibilidad sin sacrificar el tipado estático.  
 
 En resumen, los generics son como variables para los tipos: nos permiten escribir código que se adapta a distintos escenarios sin duplicar.
 
@@ -622,9 +622,9 @@ Los generics brillan especialmente en funciones, porque permiten que sean reutil
 
 🔑 ¿Qué aportan en funciones?
 
-🔷 Definición: parametrizar los tipos de entrada y salida.
-🔷 Uso: se añaden con <T> junto al nombre de la función.
-🔷 Ventaja: evitan repetir la misma función para cada tipo.
+🔷 Definición: parametrizar los tipos de entrada y salida.  
+🔷 Uso: se añaden con <T> junto al nombre de la función.  
+🔷 Ventaja: evitan repetir la misma función para cada tipo.  
 
 En resumen, los generics en funciones nos dan flexibilidad con tipado fuerte.
 
@@ -641,9 +641,9 @@ También podemos aplicarlos en interfaces y clases para crear estructuras reutil
 
 🔑 ¿Qué aportan en interfaces y clases?
 
-🔷 Definición: parametrizar el tipo de datos en estructuras más grandes.
-🔷 Uso: se declaran como <T> junto al nombre de la interface o clase.
-🔷 Ventaja: reutilizar la misma lógica con distintos tipos.
+🔷 Definición: parametrizar el tipo de datos en estructuras más grandes.  
+🔷 Uso: se declaran como <T> junto al nombre de la interface o clase.  
+🔷 Ventaja: reutilizar la misma lógica con distintos tipos.  
 
 En resumen, los generics permiten diseñar abstracciones potentes y flexibles.
 
@@ -662,9 +662,9 @@ Para eso usamos los constraints con extends.
 
 🔑 ¿Qué son los constraints?
 
-🔷 Definición: una forma de restringir qué tipos puede aceptar un genérico.
-🔷 Uso: T extends Tipo → el genérico debe cumplir esa condición.
-🔷 Ventaja: más seguridad al definir funciones y estructuras.
+🔷 Definición: una forma de restringir qué tipos puede aceptar un genérico.  
+🔷 Uso: T extends Tipo → el genérico debe cumplir esa condición.  
+🔷 Ventaja: más seguridad al definir funciones y estructuras.  
 
 En resumen, los constraints nos dan lo mejor de la flexibilidad con la seguridad del tipado.
 
@@ -681,9 +681,9 @@ Esto es posible con los default generics usando =.
 
 🔑 ¿Qué son los default generics?
 
-🔷 Definición: permiten asignar un tipo por defecto a un genérico.
-🔷 Uso: T = TipoPorDefecto.
-🔷 Ventaja: simplifican el código y hacen las APIs más fáciles de usar.
+🔷 Definición: permiten asignar un tipo por defecto a un genérico.  
+🔷 Uso: T = TipoPorDefecto.  
+🔷 Ventaja: simplifican el código y hacen las APIs más fáciles de usar.  
 
 En resumen, los default generics son como valores por defecto en funciones, pero para tipos.
 
@@ -699,9 +699,9 @@ TypeScript incluye una serie de utilidades que nos permiten transformar tipos ex
 
 🔑 ¿Qué son los Utility Types comunes?
 
-🔷 Definición: tipos genéricos que modifican otros tipos existentes.
-🔷 Uso: se aplican sobre interfaces o type aliases.
-🔷 Ventaja: reducen duplicación y mejoran la mantenibilidad.
+🔷 Definición: tipos genéricos que modifican otros tipos existentes.  
+🔷 Uso: se aplican sobre interfaces o type aliases.  
+🔷 Ventaja: reducen duplicación y mejoran la mantenibilidad.  
 
 En resumen, estos utilitarios te ayudan a crear versiones personalizadas de tus tipos con un esfuerzo mínimo.
 
@@ -718,9 +718,9 @@ TypeScript incluye otros utilitarios que nos ayudan a crear, filtrar o derivar t
 
 🔑 ¿Qué son los Utility Types avanzados?
 
-🔷 Definición: tipos genéricos que permiten generar nuevos tipos basados en otros.
-🔷 Uso: combinan generics y metaprogramación.
-🔷 Ventaja: ideales para modelos complejos o librerías tipadas.
+🔷 Definición: tipos genéricos que permiten generar nuevos tipos basados en otros.  
+🔷 Uso: combinan generics y metaprogramación.  
+🔷 Ventaja: ideales para modelos complejos o librerías tipadas.  
 
 En resumen, estos utilitarios te ayudan a transformar tipos dinámicamente con precisión.
 
